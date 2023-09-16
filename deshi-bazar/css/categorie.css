@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#categorey{
+    margin-top:100px;
+    background-color: #FDE2F3;
+    padding-bottom:40px;
+    padding-top:10px;
+}
+.navbar-brand{
+    font-family:"Fantasy" ,"Papyrus" ;
+}
+.categorey{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.categorey-item{
+    height: 200px;
+    width:300px;
+    margin:10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.categorey-item a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: auto;
+    display: block;
+    color:#000000;
+    text-transform: uppercase;
+    font-family: "Fantasy" ,"Papyrus" ;
+}
+#categorie h3{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+

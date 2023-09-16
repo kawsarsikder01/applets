@@ -1,0 +1,193 @@
+ <section  id="sidebar">
+        <div class="page-content">
+            <div class="sidebar sidebar-light sidebar-main sidebar-expand-md">
+                <div class="sidebar-content">
+                    <div class="card card-sidebar-mobile">
+        <ul class="nav nav-sidebar" data-nav-type="accordion" >
+
+            <!-- Main -->
+            <li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Foods</div></li>
+
+            <!-- Category -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span> Fruits & Vegitables</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a href="" class="nav-link ">Fresh Vegetables</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ">Fresh Fruits</a></li>
+                </ul>
+            </li>
+
+            <!-- Category -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Meat & Fish</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Chicken & Poultry</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Premium Perishable</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="">Frozen Fish</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Meat</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Tofu & Meat Alternatives</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Dried Fish</a></li> 
+                </ul>
+            </li>
+
+            <!-- Product -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"> <span>Cooking</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Spices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Salt & Sugar</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="">Rice</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Dal or Lentil</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Ready Mix</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Shemai & Suji</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Special Ingredients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Oil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Ghee</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Premium Ingredients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Colors & Flavours</a></li>
+                </ul>
+            </li>
+
+            <!-- Out Door Places -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Sauces & Pickles</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Tomato Sauces</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Pickles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cooking Sauces</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Other Table Sauces</a></li>
+                </ul>
+            </li>
+
+            <!-- Table Setup -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Dairy & Eggs</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Eggs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Powder Milk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Liquid & UHT Mil</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Yogurt & Sweets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cheese</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Condensed Milk & Cream</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Butter & Sour Cream</a></li>
+                </ul>
+            </li>
+
+            <!-- Settings -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Breakfast</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Eggs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Breads</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Tea & Coffee</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Local Breakfast</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cereals</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Honey</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Dips, Spreads & Syrups</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Energy Boosters</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Jams & Jellies</a></li>
+                </ul>
+            </li>
+
+            <!-- App Config -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Candy & Chocolate</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Chocolates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Wafers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Candies</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Gums, Mints & Mouth Fresheners</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Jellies & Marshmallows</a></li> 
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"> <span>Snacks</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Noodles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cookies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Local Snacks</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Chips & Pretzels</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Plain Biscuits</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Toast & Bakery Biscuits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cream Biscuits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Pasta & Macaroni</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Soups</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Popcorn & Nuts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Salted Biscuits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cakes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Salad Dressing</a></li> 
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Beverages</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Tea</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Soft Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Coffee</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Syrups & Powder Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Juice</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Water</a></li>
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"> <span>Baking</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Flour</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Nuts & Dried Fruits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Baking Ingredients</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Baking Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Baking & Dessert Mixes</a></li>  
+                </ul>
+            </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <!--Content Section Start-->
+    <div id="carouselExampleInterval" class="carousel slide container my-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="https://backend.sindabad.com/pub/media/scriptlodge/banner/image//web/mobile-ju-1420EN.jpg" class="d-block w-100"height="400" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://backend.sindabad.com/pub/media/scriptlodge/banner/image//web/grocery-july-1420EN.jpg" class="d-block w-100"height="400" alt="...">
+            <div class="carousel-caption d-md-block">
+              </div>
+          </div>
+          <div class="carousel-item"data-bs-interval="3000">
+            <img src="https://backend.sindabad.com/pub/media/scriptlodge/banner/image//web/EMI-AVAILABLE-WEB.jpg" class="d-block w-100"height="400" alt="...">
+            <div class="carousel-caption  d-md-block">
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!--Content Secton End-->
+    </div>
+</div>
+    </section>
+    <!--Sidebar Section End-->
+
+    

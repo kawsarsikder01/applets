@@ -1,0 +1,33 @@
+/* .carousel-inner::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+} */
+.carousel-caption{ 
+    bottom:220px;
+    text-align: center;
+    justify-content: center;
+    z-index:2;
+}
+.carousel-caption h5{ 
+    font-family: "Fantasy" ,"Papyrus";
+    font-size:35px;
+    text-transform: capitalize;
+    margin-top:25px;
+    letter-spacing: 2px;
+}
+.carousel-caption p{
+    width:60%;
+    margin:auto;
+    font-size:18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.carousel-inner{
+    border-radius: 15px;
+}

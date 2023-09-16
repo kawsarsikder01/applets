@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/categorie.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--include another css and js file-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="./global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    
+     <!-- Global stylesheets -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+     <link href="./global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+     <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+     <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+     <link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+     <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+     <!-- /global stylesheets -->
+ 
+     <!-- Core JS files -->
+     <script src="./global_assets/js/main/jquery.min.js"></script>
+     <script src="./global_assets/js/main/bootstrap.bundle.min.js"></script>
+     <script src="./global_assets/js/plugins/loaders/blockui.min.js"></script>
+     <script src="./global_assets/js/plugins/ui/ripple.min.js"></script>
+     <!-- /core JS files -->
+ 
+     <!-- Theme JS files -->
+     <script src="./global_assets/js/plugins/visualization/d3/d3.min.js"></script>
+     <script src="./global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+     <script src="./global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+     <script src="./global_assets/js/plugins/ui/moment/moment.min.js"></script>
+     <script src="./global_assets/js/plugins/pickers/daterangepicker.js"></script>
+ 
+     <script src="assets/js/app.js"></script>
+     <script src="./global_assets/js/demo_pages/dashboard.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/streamgraph.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/sparklines.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/lines.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/areas.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/donuts.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/bars.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/progress.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/heatmaps.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/pies.js"></script>
+     <script src="./global_assets/js/demo_charts/pages/dashboard/light/bullets.js"></script>
+ 
+ 
+     <!--    For Radio Checkbox-->
+     <script src="./global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+
+</head>
+<body>
+        <!--header section start-->
+       <header class="header">
+       
+        <div>
+            <div class="fa fa-bars "id="menu_btn" ></div>
+        <a href="#" class="logo mx-5"><span class="text-warning">Deshi</span> Bazar</a>
+        </div>
+      
+        <div class="icons">
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart "  id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty :1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty :1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty :1</span>
+                </div>
+            </div>
+            <div class="total">total : $19.69/-</div>
+            <a href="#"class="btn">checkout</a>
+        </div>
+        <form  class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email " class="box">
+            <input type="password" placeholder="your password " class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now"  class="btn">
+        </form>
+    </header>
+    <div class="page-content">
+        <div class="sidebar sidebar-light sidebar-main sidebar-expand-md" id="sidebar-main">
+           
+            <div class="sidebar-content" id="sidebar-content">
+    
+                <div class="card card-sidebar-mobile">
+                    <ul class="nav nav-sidebar" data-nav-type="accordion">
+            <li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Foods</div></li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span> Fruits & Vegitables</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a href="" class="nav-link ">Fresh Vegetables</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ">Fresh Fruits</a></li>
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Meat & Fish</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Chicken & Poultry</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Premium Perishable</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="">Frozen Fish</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Meat</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Tofu & Meat Alternatives</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Dried Fish</a></li> 
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"> <span>Cooking</span></a>
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Spices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Salt & Sugar</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="">Rice</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Dal or Lentil</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Ready Mix</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Shemai & Suji</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Special Ingredients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Oil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Ghee</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Premium Ingredients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Colors & Flavours</a></li>
+                </ul>
+            </li>
+
+            <!-- Out Door Places -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Sauces & Pickles</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Tomato Sauces</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Pickles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cooking Sauces</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Other Table Sauces</a></li>
+                </ul>
+            </li>
+
+            <!-- Table Setup -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Dairy & Eggs</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Eggs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Powder Milk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Liquid & UHT Mil</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Yogurt & Sweets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cheese</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Condensed Milk & Cream</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Butter & Sour Cream</a></li>
+                </ul>
+            </li>
+
+            <!-- Settings -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Breakfast</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Eggs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Breads</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Tea & Coffee</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Local Breakfast</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cereals</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Honey</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Dips, Spreads & Syrups</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Energy Boosters</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Jams & Jellies</a></li>
+                </ul>
+            </li>
+
+            <!-- App Config -->
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Candy & Chocolate</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Chocolates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Wafers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Candies</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Gums, Mints & Mouth Fresheners</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Jellies & Marshmallows</a></li> 
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"> <span>Snacks</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Noodles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cookies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Local Snacks</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Chips & Pretzels</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Plain Biscuits</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Toast & Bakery Biscuits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cream Biscuits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Pasta & Macaroni</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Soups</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Popcorn & Nuts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Salted Biscuits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Cakes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Salad Dressing</a></li> 
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"><span>Beverages</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Tea</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Soft Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Coffee</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Syrups & Powder Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Juice</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Water</a></li>
+                </ul>
+            </li>
+            <li class="nav-item nav-item-submenu">
+                <a href="#" class="nav-link"> <span>Baking</span></a>
+
+                <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                    <li class="nav-item"><a class="nav-link" href="">Flour</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Nuts & Dried Fruits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Baking Ingredients</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="">Baking Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Baking & Dessert Mixes</a></li>  
+                </ul>
+            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="content">
+                <!--Slider Section Start-->
+                    <div id="carouselExampleInterval" class="carousel slide container my-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <img src="https://backend.sindabad.com/pub/media/scriptlodge/banner/image//web/mobile-ju-1420EN.jpg" class="d-block w-100"height="400" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="https://backend.sindabad.com/pub/media/scriptlodge/banner/image//web/grocery-july-1420EN.jpg" class="d-block w-100"height="400" alt="...">
+                                <div class="carousel-caption d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item"data-bs-interval="3000">
+                                <img src="https://backend.sindabad.com/pub/media/scriptlodge/banner/image//web/EMI-AVAILABLE-WEB.jpg" class="d-block w-100"height="400" alt="...">
+                                <div class="carousel-caption  d-md-block">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                <!--Slider Secton End-->
+                <!--top categories Section start-->
+                <section class="categorie" id="categorie">
+                    <h1>  Categories</h1>
+                    <div class="categorey">
+                        <div class="categorey-item">
+                            <a href="" class="rice_foodgrain"><img src="./images/cat1629.jpg" alt=""><p>Rice & Foodgrain</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="oil_ghee"><img src="./images/cat2675.jpg" alt=""><p>Oil & Ghee</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="fruits_vegetables"><img src="./images/cat2720.jpg" alt=""><p>Fruits & Vegetables</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="meat_fish"> <img src="./images/cat2872.jpg" alt=""><p>Meat & Fish</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="beverage"><img src="./images/cat2674.jpg" alt=""><p>Beverage</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="eags_dairy"><img src="./images/cat2696.jpg" alt=""><p>Eags & Dairy</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="snacks_bakery"><img src="./images/cat2351.jpg" alt=""><p>Snacks & Bakery</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="frozen_canned"><img src="./images/cat2876.jpg" alt=""><p>Frozen & Canned</p></a>
+                        </div>
+                        <div class="categorey-item">
+                            <a href="" class="spices_readymixes"><img src="./images/cat2677.jpg" alt=""><p>Spices & Ready Mixes</p></a>
+                        </div>
+                    </div>
+                </section>
+                <!--top categories Section End-->
+                <!--Banner Section Start-->
+                <section class="food_grocery" id="food_grocery">
+                    <div class="carousel-inner">
+                        
+                          <a href="">  <img src="./images/monthly-bazar-1420-450-EN.jpg" class="d-block w-100"height="400" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                       
+                        
+                    </div>
+                </section>
+                <!--Banner Section End-->
+                <!--Product Section Start-->
+                <section class="products" id="products">
+                    <h1 >Food & Grocery</h1>
+                    <div class="swiper products-slider">
+                        <div class="swiper-wrapper">
+                            <div class="box">
+                                <img src="images/fresh-oil-5-litre_1.jpg" alt="">
+                                <h3>Fresh Soyabean Oil, 5 Liter</h3>
+                                <div class="price">$4.99-10.99/- 
+                                   <a href="#" class="btnn">add to cart</a>
+                               </div>
+                            </div>
+                            <div class="box">
+                               <img src="images/beefmeat.jpg" alt="">
+                               <h3>Beef Regular Bone In</h3>
+                               <div class="price">$4.99-10.99/-
+                                 
+                                  <a href="#" class="btnn">add to cart</a>
+                              </div>
+                           </div>
+                           <div class="box">
+                               <img src="images/9352056170_1_2.jpg" alt="">
+                               <h3>Fresh Super Premium</h3>
+                               <div class="price">$4.99-10.99/-
+                                 
+                                  <a href="#" class="btnn">add to cart</a>
+                              </div>
+                           </div>
+                           <div class="box">
+                               <img src="images/fortune-rice-5.jpg" alt="">
+                               <h3>
+                                Fortune Fortified Rice Bran Oil, 5 Liter</h3>
+                               <div class="price">$4.99-10.99/-
+                                 
+                                  <a href="#" class="btnn">add to cart</a>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="swiper products-slider">
+                       <div class="swiper-wrapper">
+                           <div class="box">
+                               <img src="images/nescafe_instant_coffee_jar_classic_200gm.jpg" alt="">
+                               <h3>Nescafe Instant Coffee Jar Classic, 200gm </h3>
+                           
+                               <div class="price">$4.99-10.99/-
+                                  
+                                  <a href="#" class="btnn">add to cart</a>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <img src="images/product-6.png" alt="">
+                              <h3>freash avocado</h3>
+                              <br>
+                              <br>
+                              <div class="price">$4.99-10.99/-
+                                 
+                                 <a href="#" class="btnn">add to cart</a>
+                             </div>
+                          </div>
+                          <div class="box">
+                              <img src="images/product-7.png" alt="">
+                              <h3>freash carot</h3>
+                              <div class="price">$4.99-10.99/-
+                                 
+                                 <a href="#" class="btnn">add to cart</a>
+                             </div>
+                          </div>
+                          <div class="box">
+                              <img src="images/product-8.png" alt="">
+                              <h3>green lemon</h3>
+                              <div class="price">$4.99-10.99/-
+                                 
+                                 <a href="#" class="btnn">add to cart</a>
+                             </div>
+                          </div>
+                       </div>
+                   </div>
+                </section>
+                <!--Product Section End-->
+            </div>
+            <!-- /content area -->
+        </div>
+    </div>
+   
+    <script src="./js/header.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
